@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Righteous&family=Sarala:wght@400;700&display=swap');
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: rgb(230, 0, 0);
+    transition: 0.3s all;
+}
+#contrate-btn{
+    border: 2px solid rgb(230, 0, 0);
+    padding: 10px;
+    border-radius: 20px;
+}
+#contrate-btn:hover{
+    background-color: rgb(230, 0, 0);
+    color: white;
+    transition: 0.3s;
+}
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+h1{
+    font-weight: 700px;
+    font-size: 46px;
+}
+span{
+    color: rgb(230, 0, 0);
+}
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'Sarala', sans-serif;
+}
+h2{
+    font-size: 46px;
+    line-height: 10px;
+    font-family: 'Righteous', cursive;;
+}
+
+main{
+    border-top: 0.3px solid red;
+    padding-top: 24px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-bottom: 100px;
+}
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+#enviar{
+    height: 50px;
+    width: 50%;
+    background: rgb(230, 0, 0);
+    color: white;
+    font-weight: bold;
+}
+#enviar:hover{
+    cursor: pointer;
+}
+footer{
+    display: block;
+    text-align: center;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 0.3px solid red;
+}
